@@ -14,6 +14,7 @@ namespace ContaBancaria
         public Conta(int numero, string titular) {
             Numero = numero;
             Titular = titular;
+            Saldo = 0.0;
         }
 
         public void Deposito(double deposito){
